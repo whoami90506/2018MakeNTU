@@ -23,11 +23,11 @@ class App extends Component {
           <img src={chair} className="App-logo" alt="logo" />
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Analyze
         </p>
-        <LineChart data={data} width='500'/>
-        <LineChart data={data} width='500'/>
-        <LineChart data={data} width='500'/>
+        <LineChart data={data} height ='300' width='400'/>
+        <LineChart data={data} height ='300' width='400'/>
+        <LineChart data={data} height ='300' width='400'/>
       </div>
     );
   }
