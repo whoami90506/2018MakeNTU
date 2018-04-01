@@ -1,0 +1,62 @@
+.App-logo {
+   /* animation: App-logo-spin infinite 20s linear; */
+   height: 500px;
+ }
+.bottom{
+   position: absolute;
+   height: 100px;
+   width: 40px;
+   border-radius: 50%;
+   transform: rotate(80deg);
+   transition: all 0.5s;
+}
+.bottom.left{
+   top: 200px;
+   left: 200px;
+}
+
+.bottom.right{
+   top: 215px;
+   left: 250px;
+}
+.chair-wrapper{
+   width: 500px;
+   margin: auto;
+   position: relative;
+}
+.spine{
+   width: 100px;
+   position: absolute;
+   height: 100px;
+   top: 110px;
+   left: 250px;
+   transform: skewY(11deg);
+   border-radius: 30%;
+}
+.line{
+   position: absolute;
+   width: 200px;
+   height: 50px;
+   font-size: 1.5rem;
+   transition: 1s all;
+   color: #C1666B;
+}
+.line.right{
+   top: 260px;
+   left: 270px;
+   text-align: right;
+   border-top: #C1666B 2px solid;
+}
+.line.left{
+   top: 250px;
+   right: 270px;
+   text-align: left;
+   border-top: #C1666B 2px solid;
+}
+.line.right-spine{
+   top: 160px;
+   left: 300px;
+   text-align: right;
+   border-top: #5780ab 2px solid;
+   color: #5780ab;
+}
